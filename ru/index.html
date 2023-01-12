@@ -153,6 +153,11 @@
                 d="M15.9,8l1.8-1.8c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-1.8,1.8l-1.8-1.8c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L13.1,8l-1.8,1.8 c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l1.8-1.8l1.8,1.8c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L15.9,8z M8.5,0.1C8.1-0.1,7.7,0,7.4,0.2L3.7,3H2C0.9,3,0,3.9,0,5v6c0,1.1,0.9,2,2,2h1.7l3.7,2.8C7.6,15.9,7.8,16,8,16 c0.2,0,0.3,0,0.4-0.1C8.8,15.7,9,15.4,9,15V1C9,0.6,8.8,0.3,8.5,0.1z M7,13l-2.4-1.8C4.4,11.1,4.2,11,4,11l-2,0l0-6h2 c0.2,0,0.4-0.1,0.6-0.2L7,3V13z" />
         </symbol>
 
+        <symbol id="translate" viewBox="0 0 24 24">
+            <path
+                d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z" />
+        </symbol>
+
         <!-- social -->
         <symbol id="youtube" viewBox="0 0 24 24">
             <path
@@ -196,14 +201,17 @@
                     <li><a href="#screenshots">Скриншоты</a></li>
                 </ul>
             </div>
-            <div class="right"><a class="button gray gradient" href="../en">English</a></div>
+            <div class="right"><a class="button actionButton sidebarTrigger" data-sidebar-id="2"><svg style="height:21px">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#translate"></use>
+            </svg></a></div>
         </div>
         <div class="sections compact">
             <div class="left"><a href="#" title="MiniOS"><svg style="width:30px;height:30px">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-icon"></use>
                     </svg></a></div>
-            <div class="right"><a class="button gray gradient" href="../en">En</a><span
-                    class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg>
+            <div class="right"><a class="button actionButton sidebarTrigger" data-sidebar-id="2"><svg style="height:21px;">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#translate"></use>
+                    </svg></a><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg>
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use>
                     </svg></span></div>
         </div>
@@ -227,6 +235,21 @@
                 </li>
                 <li><a href="https://github.com/minios-linux/minios-live" target="_blank">Исходный код</a></li>
                 <li><a href="#screenshots">Скриншоты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" data-sidebar-id="2">
+        <div class="close"><svg>
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+            </svg></div>
+        <div class="content">
+            <a href="#" class="logo"><svg width="24" height="24">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#translate">
+                </svg></a>
+            <ul class="mainMenu margin-top-3">
+                <li><a href="../">English</a></li>
             </ul>
         </div>
     </nav>
