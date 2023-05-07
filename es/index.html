@@ -38,10 +38,10 @@
     </script>
 
     <!-- Page Title -->
-    <title>MiniOS - Быстрая. Простая. Надёжная.</title>
+    <title>MiniOS - Fast. Simple. Reliable.</title>
 
     <!-- Compressed Styles -->
-    <link href="../css/slides.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/slides.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Styles -->
     <!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->
@@ -196,16 +196,19 @@
                     <li><a href="https://t.me/minios_chat" target="_blank"><svg style="height:21px;">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use>
                             </svg> Debate</a></li>
-                    <li><a href="https://github.com/minios-linux/minios-live/wiki" target="_blank"><svg
+                    <li><a href="https://github.com/minios-linux/minios-live/discussions" target="_blank"><svg
+                                style="height:21px;">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#github"></use>
+                            </svg> Foro</a></li>
+                    <li><a href="https://minios.dev/docs" target="_blank"><svg
                                 style="height:21px;">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#github"></use>
                             </svg> Documentación</a>
                     </li>
                     <li><a href="https://github.com/minios-linux/minios-live" target="_blank"><svg style="height:21px;">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#github"></use>
-                            </svg> Código fuente</a>
-                    </li>
-                    <li><a href="#screenshots">Capturas de pantalla</a></li>
+                            </svg> Código fuente</a></li>
+                    <li><a href="#screenshots"> Capturas de pantalla</a></li>
                 </ul>
             </div>
             <div class="right"><a class="button actionButton sidebarTrigger" data-sidebar-id="2"><svg>
@@ -238,8 +241,8 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="https://t.me/minios_news" target="_blank">Noticias</a></li>
                 <li><a href="https://t.me/minios_chat" target="_blank">Debate</a></li>
-                <li><a href="https://github.com/minios-linux/minios-live/wiki" target="_blank">Documentación</a>
-                </li>
+                <li><a href="https://github.com/minios-linux/minios-live/discussions" target="_blank">Foro</a></li>
+                <li><a href="https://minios.dev/docs" target="_blank">Documentación</a></li>
                 <li><a href="https://github.com/minios-linux/minios-live" target="_blank">Código fuente</a></li>
                 <li><a href="#screenshots">Capturas de pantalla</a></li>
             </ul>
@@ -275,14 +278,44 @@
                                 <h1 class="ae-1 fromLeft"><svg style="width:153px;height:35px">
                                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
                                     </svg></h1>
-                                <p class="ae-1 fromLeft"><span class="opacity-8">Rápido. Sencillo. Fiable.</span></p>
-                                <a href="#downloads"
-                                    class="button green gradient ae-3 fromCenter cropLeft">Descargar</a>
-                                <a href="#more" class="button blue gradient ae-4 fromCenter">Seguir leyendo</a>
+                                <p class="ae-2 fromLeft"><span class="opacity-8">Es rápido. Sencillo. Fiable.</span></p>
+                                <a href="#more" class="button blue gradient ae-4 fromCenter">Acerca de</a>
+                                <a href="#screenshots" class="button orange gradient ae-4 fromCenter">Capturas de pantalla</a>
+                                <a href="#downloads" class="button green gradient ae-3 fromCenter cropLeft">Descargar</a>
                             </li>
                             <li class="col-6-12">
-                                <img class="ae-4 rounded" width="605" src="../assets/img/standard1.jpg"
+                                <img class="ae-4 rounded" width="605" src="../assets/img/standard_desktop.jpg"
                                     alt="MiniOS Standard" data-action="zoom" />
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="fix-11-12">
+                        <ul>
+                            <li>
+                        </ul>
+                        <ul class="grid fixedSpaces equal left grid-73">
+                            <li class="col-4-12 ae-3">
+                                <a href="https://t.me/minios_chat" class="cell-73 rounded equalElement" target="_blank">
+                                    <i class="material-icons">chat</i>
+                                    <h3>Asistencia por chat</h3>
+                                    <p class="tiny opacity-6">Valoramos a nuestros usuarios y siempre le ayudaremos con los problemas.</p>
+                                </a>
+                            </li>
+                            <li class="col-4-12 ae-4">
+                                <a href="https://t.me/minios_news" class="cell-73 rounded equalElement" target="_blank">
+                                    <i class="material-icons">feed</i>
+                                    <h3>Últimas noticias</h3>
+                                    <p class="tiny opacity-6">Suscríbase a nuestro canal de noticias para estar al día de las novedades.</p>
+                                </a>
+                            </li>
+                            <li class="col-4-12 ae-6">
+                                <a href="https://github.com/minios-linux/minios-live/discussions"
+                                    class="cell-73 rounded equalElement last" target="_blank">
+                                    <i class="material-icons">forum</i>
+                                    <h3>Foro</h3>
+                                    <p class="tiny opacity-6">Sugiera ideas, comparta experiencias en nuestro foro.</p>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -299,30 +332,21 @@
             <div class="container">
                 <div class="wrap">
 
-                    <div class="fix-12-12">
-                        <ul class="flex verticalCenter">
-                            <li class="col-5-12 cell-27">
-                                <div class="fix-4-12">
-                                    <ul>
-                                        <li><img class="ae-4" width="250" src="../assets/svg/debian-logo.svg"
-                                                alt="Debian" /></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="col-7-12 left">
-                                <h1 class="ae-2 fromRight">¿Qué es MiniOS?</h1>
-                                <div class="ae-3 fromRight">
-                                    <p class="opacity-8">MiniOS es una distribución Linux portátil y modular basada en
-                                        Debian, construida mediante scripts minios-live, cuyo principal objetivo es
-                                        proporcionar al usuario un entorno de trabajo completo y cómodo para el trabajo,
-                                        el entretenimiento y la creatividad en cualquier lugar y en cualquier hardware
-                                        compatible con x86, manteniendo sus datos personales en medios &nbsp;extraíbles.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="fix-10-12 toCenter">
+                        <h1 class="ae-1">¿Qué es MiniOS?</h1>
+                        <p class="ae-2" align="justify"><span class="opacity-8">
+                            MiniOS es una distribución Linux ligera y rápida diseñada para ser instalada en una memoria USB. El proyecto MiniOS se lanzó en 2009 como una distribución Linux para unidades USB basada en Mandriva Linux. Sin embargo, se suspendió en 2013 debido a la liquidación de Mandriva. La versión moderna de MiniOS se publica desde 2020 y se basa en Debian, una de las distribuciones más populares y estables.
+                        </span></p>
+                        <p class="ae-3" align="justify"><span class="opacity-8">
+                            Una característica distintiva de MiniOS es su enfoque modular de la configuración del sistema, que permite a los usuarios añadir o eliminar módulos según sus necesidades. Esto hace que sea fácil de usar y flexible de configurar. Además, MiniOS sólo ocupa 300 MB de espacio en disco (según la versión) y puede ejecutarse desde una memoria USB sin necesidad de instalación. Esto lo hace ideal para su uso en ordenadores antiguos o sistemas con memoria limitada.
+                        </span></p>
+                        <p class="ae-4" align="justify"><span class="opacity-8">
+                            MiniOS puede instalarse utilizando software popular como Ventoy, Rufus, UNetbootin, balenaEtcher y muchos otros. MiniOS permite arrancar desde EFI y Legacy-BIOS y utiliza el mismo gestor de paquetes que Debian. Esto proporciona acceso a los mismos repositorios y la posibilidad de instalar los mismos paquetes de software.
+                        </span></p>
+                        <p class="ae-4" align="justify"><span class="opacity-8">
+                            MiniOS cuenta con una comunidad activa y amistosa de usuarios y desarrolladores dispuestos a ayudar a los nuevos usuarios y a debatir nuevas ideas y sugerencias. Puedes unirte a la comunidad MiniOS para aprender más sobre la distribución, obtener ayuda o compartir tus experiencias usándola.
+                        </span></p>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -337,44 +361,34 @@
 
                     <div class="fix-10-12 toCenter">
                         <h1 class="ae-1">Atención al detalle</h1>
-                        <p class="ae-2"><span class="opacity-8">Hacemos que MiniOS sea bonito para que disfrutes
-                                usándolo cada día y para cada tarea. Prestamos gran atención a cada detalle del sistema
-                                &nbsp;operativo.</span></p>
+                        <p class="ae-2"><span class="opacity-8" align="justify">Hacemos que MiniOS sea bonito para que disfrutes usándolo cada día y para cada tarea. Prestamos gran atención a cada detalle del sistema operativo.</span></p>
                     </div>
                     <div class="fix-12-12">
                         <ul class="grid grid-75 masonry fixedSpaces ae-3 controller popupTrigger" data-popup-id="75-1"
                             data-slider-id="75-1">
                             <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-4 fadeIn">
-                                <img src="../assets/img/maximum7.jpg" class="wide rounded margin-bottom-1"
-                                    alt="Image" />
+                                <img src="../assets/img/maximum7.jpg" class="wide rounded margin-bottom-1" alt="Image" />
                             </li>
                             <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-5 fadeIn">
-                                <img src="../assets/img/maximum2.jpg" class="wide rounded margin-bottom-1"
-                                    alt="Image" />
+                                <img src="../assets/img/maximum2.jpg" class="wide rounded margin-bottom-1" alt="Image" />
                             </li>
                             <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-6 fadeIn">
-                                <img src="../assets/img/maximum3.jpg" class="wide rounded margin-bottom-1"
-                                    alt="Image" />
+                                <img src="../assets/img/maximum3.jpg" class="wide rounded margin-bottom-1" alt="Image" />
                             </li>
                             <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-7 fadeIn">
-                                <img src="../assets/img/maximum4.jpg" class="wide rounded margin-bottom-1"
-                                    alt="Image" />
+                                <img src="../assets/img/maximum4.jpg" class="wide rounded margin-bottom-1" alt="Image" />
                             </li>
                             <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-5 fadeIn">
-                                <img src="../assets/img/maximum5.jpg" class="wide rounded margin-bottom-1"
-                                    alt="Image" />
+                                <img src="../assets/img/maximum5.jpg" class="wide rounded margin-bottom-1" alt="Image" />
                             </li>
                             <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-6 fadeIn">
-                                <img src="../assets/img/maximum6.jpg" class="wide rounded margin-bottom-1"
-                                    alt="Image" />
+                                <img src="../assets/img/maximum6.jpg" class="wide rounded margin-bottom-1" alt="Image" />
                             </li>
                             <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-7 fadeIn">
-                                <img src="../assets/img/maximum8.jpg" class="wide rounded margin-bottom-1"
-                                    alt="Image" />
+                                <img src="../assets/img/maximum8.jpg" class="wide rounded margin-bottom-1" alt="Image" />
                             </li>
                             <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-8 fadeIn">
-                                <img src="../assets/img/maximum9.jpg" class="wide rounded margin-bottom-1"
-                                    alt="Image" />
+                                <img src="../assets/img/maximum9.jpg" class="wide rounded margin-bottom-1" alt="Image" />
                             </li>
                         </ul>
                     </div>
@@ -434,71 +448,70 @@
                 <div class="wrap">
 
                     <div class="fix-12-12">
-                        <h1 class="ae-1">Elija su propia versión</h1>
-                        <ul class="grid grid-83 noSpaces equal ae-2 fadeIn">
-                            <li class="col-3-12 ae-3">
+                        <h1 class="ae-1">Elija su versión</h1><!--a href="../download.html" class="button green gradient ae-10 fromCenter cropLeft">Download</a-->
+                        <ul class="grid grid-83 noSpaces equal ae-1 fadeIn">
+                            <li class="col-4-12 ae-2">
+                                <h3>Flux</h3>
+                                <img src="../assets/img/flux_desktop.jpg" class="wide rounded margin-bottom-1" alt="MiniOS Minimum" data-action="zoom" />
+                                <p class="tiny equalElement ae-4 opacity-8" align="justify">
+                                    La versión más compacta de MiniOS, visualmente similar a Slax y que representa una visión alternativa de Slax por parte del equipo de MiniOS. Utiliza el entorno Fluxbox con un conjunto mínimo de programas en la imagen y no contiene navegador.
+                                </p></br>
+                                <h4 class="ae-2 opacity-8">295 MB<span class="opacity-6">*</span></h4>
+                                <a href="download-flux-minimum-i386.html" class="button green gradient ae-4 fromCenter">32bit</a>
+                                <a href="download-flux-minimum-amd64.html" class="button green gradient ae-5 fromCenter">64bit</a>
+                            </li>
+                            <li class="col-4-12 ae-2">
                                 <h3>Minimum</h3>
-                                <div class="price ae-5"><span class="currency">MB</span>408</div>
-                                <div class="ae-5">
-                                    <h6 class="uppercase bold small opacity-4">amd64 zstd</h6>
-                                </div>
-                                <div class="margin-top-3 margin-bottom-3 equalElement ae-6">
-                                    <ul class="p tiny">
-                                        <li class="opacity-7">entorno operativo mínimo</li>
-                                    </ul>
-                                </div>
-                                <a href="./download-minimum.html"
-                                    class="button green gradient wide cropSides cropBottom ae-7">Descargar</a>
+                                <img src="../assets/img/minimum_desktop.jpg" class="wide rounded margin-bottom-1" alt="MiniOS Minimum" data-action="zoom" />
+                                <p class="tiny equalElement ae-4 opacity-8" align="justify">
+                                    Esta versión está basada en una versión anterior de Debian y está comprimida usando el algoritmo xz, por lo que ocupa poco espacio. Contiene un conjunto mínimo de software.
+                                </p></br>
+                                <h4 class="ae-2 opacity-8">305 MB<span class="opacity-6">*</span></h4>
+                                <a href="download-xfce-minimum-i386.html" class="button green gradient ae-4 fromCenter">32bit</a>
+                                <a href="download-xfce-minimum-amd64.html" class="button green gradient ae-5 fromCenter">64bit</a>
                             </li>
-                            <li class="col-3-12 ae-4">
+                            <li class="col-4-12 ae-2">
                                 <h3>Standard</h3>
-                                <div class="price ae-6"><span class="currency">MB</span>545</div>
-                                <div class="ae-6">
-                                    <h6 class="uppercase bold small opacity-4">amd64 zstd</h6>
-                                </div>
-                                <div class="margin-top-3 margin-bottom-3 equalElement ae-7">
-                                    <ul class="p tiny">
-                                        <li class="opacity-8">incluye utilidades de consola adicionales, firmware
-                                            propietario y software más fácil de usar</li>
-                                    </ul>
-                                </div>
-                                <a href="./download-standard.html"
-                                    class="button green gradient wide cropSides cropBottom ae-8">Descargar</a>
+                                <img src="../assets/img/standard_desktop.jpg" class="wide rounded margin-bottom-1" alt="MiniOS Standard" data-action="zoom" />
+                                <p class="tiny equalElement ae-4 opacity-8" align="justify">
+                                    La versión más equilibrada del sistema, que combina compacidad y la funcionalidad necesaria junto con una interfaz fácil de usar. Está comprimida con el algoritmo zstd, por lo que carga y ejecuta las aplicaciones más rápido que las versiones minimalistas.
+                                </p></br>
+                                <h4 class="ae-2 opacity-8">515 MB<span class="opacity-6">*</span></h4>
+                                <a href="download-xfce-standard-i386.html" class="button green gradient ae-4 fromCenter">32bit</a>
+                                <a href="download-xfce-standard-amd64.html" class="button green gradient ae-5 fromCenter">64bit</a>
                             </li>
-                            <li class="col-3-12 ae-5">
+                            <li class="col-4-12 ae-2">
                                 <h3>Maximum</h3>
-                                <div class="price ae-7"><span class="currency">MB</span>655</div>
-                                <div class="ae-7">
-                                    <h6 class="uppercase bold small opacity-4">amd64 zstd</h6>
-                                </div>
-                                <div class="margin-top-3 margin-bottom-3 equalElement ae-8">
-                                    <ul class="p tiny">
-                                        <li class="opacity-8">incluye controladores adicionales, software, programas
-                                            para el uso diario y el mantenimiento de su PC. software para el uso diario
-                                            y el mantenimiento del PC
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="./download-maximum.html"
-                                    class="button green gradient wide cropSides cropBottom ae-9">Descargar</a>
+                                <img src="../assets/img/maximum_desktop.jpg" class="wide rounded margin-bottom-1" alt="MiniOS Maximum" data-action="zoom" />
+                                <p class="tiny equalElement ae-4 opacity-8" align="justify">
+                                    Un sistema completo. Incluye las mismas funciones que la Standard, además de todo lo necesario para trabajar y entretenerse cómodamente. La mejor elección para los amantes de las navajas suizas. Contiene editores ofimáticos básicos, reproductor multimedia, navegador, sistema de virtualización y mucho más software para la mayoría de las tareas en casa y en el trabajo.
+                                </p></br>
+                                <h4 class="ae-2 opacity-8">685 MB<span class="opacity-6">*</span></h4>
+                                <a href="download-xfce-maximum-amd64.html" class="button green gradient ae-5 fromCenter">64bit</a>
                             </li>
-                            <li class="col-3-12 ae-6">
-                                <h3>Otras variantes</h3>
-                                <div class="price ae-8"><span class="currency"></span>&nbsp;</div>
-                                <div class="ae-7">
-                                    <h6 class="uppercase bold small opacity-4">&nbsp;</h6>
-                                </div>
-                                <div class="margin-top-3 margin-bottom-3 equalElement ae-9">
-                                    <ul class="p tiny">
-                                        <li class="opacity-8">Edición Ultra, compilaciones para i386, variantes de
-                                            MiniOS basadas en otras versiones de Debian</li>
-                                    </ul>
-                                </div>
-                                <a href="https://github.com/minios-linux/minios-live/releases/tag/v2.3"
-                                    class="button blue gradient wide cropSides cropBottom ae-10"
-                                    target="_blank">Descargar</a>
+                            <li class="col-4-12 ae-2">
+                                <h3>Ultra</h3>
+                                <img src="../assets/img/ultra_desktop.jpg" class="wide rounded margin-bottom-1" alt="MiniOS Ultra" data-action="zoom" />
+                                <p class="tiny equalElement ae-4 opacity-8" align="justify">
+                                    Un sistema todo en uno para quienes desean funciones avanzadas: desde editor de música, ofimática completa y editor de imágenes hasta software de modelado 3D y sistemas de virtualización.
+                                </p></br>
+                                <h4 class="ae-2 opacity-8">1300 MB<span class="opacity-6">*</span></h4>
+                                <a href="download-xfce-ultra-amd64.html" class="button green gradient ae-5 fromCenter">64bit</a>
+                            </li>
+                            <li class="col-4-12 ae-2">
+                                <h3>Puzzle</h3>
+                                <img src="../assets/img/puzzle_desktop.jpg" class="wide rounded margin-bottom-1" alt="MiniOS Puzzle" data-action="zoom" />
+                                <p class="tiny equalElement ae-4 opacity-8" align="justify">
+                                    El sistema-constructor, en su versión básica, es análogo a la versión Stantard con la posibilidad de ampliar el sistema a la funcionalidad Ultra e incluso más a través de módulos ya preparados, que están disponibles en nuestra página web.
+                                </p></br>
+                                <h4 class="ae-2 opacity-8">460-1500 MB<span class="opacity-6">*</span></h4>
+                                <a href="download-xfce-puzzle-base-amd64.html" class="button green gradient ae-4 fromCenter">64bit base</a>
+                                <a href="download-xfce-puzzle-amd64.html" class="button green gradient ae-5 fromCenter">64bit full</a>
                             </li>
                         </ul>
+                        </br>
+                        <!--a href="../download.html" class="button green gradient ae-9 fromCenter cropLeft">Download</a-->
+                        <p class="ae-10"><span class="opacity-8">* - el tamaño real de la distribución puede variar ligeramente.</span></p>
                     </div>
 
                 </div>

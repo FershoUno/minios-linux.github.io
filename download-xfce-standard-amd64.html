@@ -99,10 +99,8 @@
                     <div class="fix-11-12">
                         <ul class="flex reverse">
                             <li class="col-6-12 left box-73">
-                                <p class="ae-3"><span class="opacity-8">Thank you for downloading MiniOS. The download
-                                        should start shortly. If the download does not start, click </span><a
-                                        href="https://github.com/minios-linux/minios-live/releases/download/v2.3/minios-bullseye-xfce-standard-amd64-zstd-20220712_0247.iso"
-                                        data-auto-download>here</a><span class="opacity-8">.</span></p>
+                                <p class="ae-3" align="justify"><span class="opacity-8">Thank you for downloading MiniOS. The download should start soon. If it does not, click </span><a
+                                    href="https://github.com/minios-linux/minios-live/releases">here</a><span class="opacity-8"> and select the distribution yourself.</span></p>
                             </li>
                             <li class="col-6-12">
                                 <img class="ae-4 rounded" width="605" src="assets/img/wallpaper-black.jpg"
@@ -118,14 +116,22 @@
     </section>
 
     <script>
-        $(function () {
-            $('a[data-auto-download]').each(function () {
-                var $this = $(this);
-                setTimeout(function () {
-                    window.location = $this.attr('href');
-                }, 2000);
-            });
-        });
+        fetch("https://api.github.com/repos/minios-linux/minios-live/releases/tags/v3.0")
+            .then(response => response.json())
+            .then(data => {
+                const release = data;
+                const asset = release.assets.find(asset => asset.name.includes("minios-bullseye-xfce-standard-en-lkm-aufs-amd64-zstd"));
+                if (asset) {
+                    console.log("File found: ", asset.name);
+                    setTimeout(() => {
+                        const downloadUrl = asset.browser_download_url;
+                        window.location.href = downloadUrl;
+                    }, 3000);
+                } else {
+                    console.log("File not found");
+                }
+            })
+            .catch(error => console.error(error));
     </script>
 
     <!-- Loading Progress Bar -->

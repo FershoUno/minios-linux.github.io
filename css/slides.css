@@ -7458,7 +7458,7 @@ p.remind-43 {
 }
 @media (min-width: 1024px) {
   .grid.grid-83 > [class*='col-'] {
-    padding: 50px;
+    padding: 30px; /* window border width */ 
     border-radius: 0px;
   }
   .grid.grid-83 > [class*='col-']:last-child {
