@@ -120,7 +120,7 @@
             .then(response => response.json())
             .then(data => {
                 const release = data;
-                const asset = release.assets.find(asset => asset.name.includes("minios-bullseye-xfce-ultra-en-lkm-aufs-amd64-zstd"));
+                const asset = release.assets.find(asset => asset.name.includes("minios-bullseye-xfce-ultra-es-lkm-aufs-amd64-zstd"));
                 if (asset) {
                     console.log("File found: ", asset.name);
                     setTimeout(() => {

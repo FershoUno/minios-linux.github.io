@@ -25,7 +25,7 @@ replace() {
     # Output chosen parameters
     echo "File download-$DESKTOP_ENVIRONMENT-$PACKAGE_VARIANT-$DISTRIBUTION_ARCH.html has been created."
 }
-: '
+
 replace buster xfce minimum es i386 xz
 replace buster xfce minimum es amd64 xz
 replace bullseye flux minimum es i386 xz
@@ -35,17 +35,4 @@ replace bullseye xfce standard es amd64 zstd
 replace bullseye xfce maximum es amd64 zstd
 replace bullseye xfce ultra es amd64 zstd
 replace bullseye xfce puzzle-base es amd64 zstd
-replace bullseye xfce puzzle es amd64 zstd'
-
-replace buster xfce minimum en i386 xz
-replace buster xfce minimum en amd64 xz
-replace bullseye flux minimum en i386 xz
-replace bullseye flux minimum en amd64 xz
-replace bullseye xfce standard en i386 zstd
-replace bullseye xfce standard en amd64 zstd
-replace bullseye xfce maximum en amd64 zstd
-replace bullseye xfce ultra en amd64 zstd
-replace bullseye xfce puzzle-base en amd64 zstd
-replace bullseye xfce puzzle en amd64 zstd
-
-
+replace bullseye xfce puzzle es amd64 zstd
