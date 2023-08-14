@@ -116,11 +116,11 @@
     </section>
 
     <script>
-        fetch("https://api.github.com/repos/minios-linux/minios-live/releases/tags/v3.1")
+        fetch("https://api.github.com/repos/minios-linux/minios-live/releases/tags/v3.2")
             .then(response => response.json())
             .then(data => {
                 const release = data;
-                const asset = release.assets.find(asset => asset.name.includes("minios-bullseye-flux-minimum-es-lkm-aufs-i386-xz"));
+                const asset = release.assets.find(asset => asset.name.includes("minios-bookworm-flux-minimum-es-lkm-aufs-i386-xz"));
                 if (asset) {
                     console.log("File found: ", asset.name);
                     setTimeout(() => {

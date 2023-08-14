@@ -28,11 +28,11 @@ replace() {
 
 replace buster xfce minimum es i386 xz
 replace buster xfce minimum es amd64 xz
-replace bullseye flux minimum es i386 xz
-replace bullseye flux minimum es amd64 xz
-replace bullseye xfce standard es i386 zstd
-replace bullseye xfce standard es amd64 zstd
-replace bullseye xfce maximum es amd64 zstd
-replace bullseye xfce ultra es amd64 zstd
-replace bullseye xfce puzzle-base es amd64 zstd
-replace bullseye xfce puzzle es amd64 zstd
+replace bookworm flux minimum es i386 xz
+replace bookworm flux minimum es amd64 xz
+replace bookworm xfce standard es i386 zstd
+replace bookworm xfce standard es amd64 zstd
+replace bookworm xfce maximum es amd64 zstd
+replace bookworm xfce ultra es amd64 zstd
+replace bookworm xfce puzzle-base es amd64 zstd
+replace bookworm xfce puzzle es amd64 zstd
