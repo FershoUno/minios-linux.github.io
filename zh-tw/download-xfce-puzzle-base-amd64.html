@@ -77,7 +77,7 @@
 <div class="fix-11-12">
 <ul class="flex reverse">
 <li class="col-6-12 left box-73">
-<p align="justify" class="ae-3"><span class="opacity-8">Thank you for downloading MiniOS. The download should start soon. If it does not, click </span><a href="https://github.com/minios-linux/minios-live/releases">在這</a><span class="opacity-8"> and select the distribution yourself.</span></p>
+<p align="justify" class="ae-3"><span class="opacity-8">感謝您下載 MiniOS。 下載應該很快就會開始。 如果沒有，請點一下 </span><a href="https://github.com/minios-linux/minios-live/releases">該連結</a><span class="opacity-8"> 並自行選擇所需的版本。</span></p>
 </li>
 <li class="col-6-12">
 <img alt="MiniOS" class="ae-4 rounded" src="../assets/img/wallpaper-black.jpg" width="605"/>
@@ -94,7 +94,7 @@
             .then(response => response.json())
             .then(data => {
                 const release = data;
-                const asset = release.assets.find(asset => asset.name.includes("minios-DISTRO-DESKTOP_ENVIRONMENT-PACKAGE_VARIANT-LANGUAGE-lkm-aufs-DISTRIBUTION_ARCH-COMP_TYPE"));
+                const asset = release.assets.find(asset => asset.name.includes("minios-bookworm-xfce-puzzle-base-en-lkm-aufs-amd64-zstd"));
                 if (asset) {
                     console.log("File found: ", asset.name);
                     setTimeout(() => {
