@@ -7,8 +7,8 @@ apt install -y python3-bs4
 ```
 Run ``translate.py`` with the following parameters:
 ```
-python3 translate.py -h index.html -j ru.json
-python3 translate.py -h download-template.html -j ru.json
+python3 translate.py -f index.html -j ru.json
+python3 translate.py -f download-template.html -j ru.json
 ```
 Then run the download file generation for all distributions:
 ```
