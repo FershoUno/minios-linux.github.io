@@ -1,14 +1,14 @@
 # Site minios.dev
 To translate the site into your language, you can use the files in the locale folder.
 Edit the translation file in json format by replacing the Russian translation strings with your language, and rename the file so that it has your locale name in lowercase letters. The easiest way to do this is to have ChatGPT translate the language file into your language, and then correct any inaccuracies in the translation.
-Install the python3-bs4 package:
+Install the jq package:
 ```
-apt install -y python3-bs4
+apt install -y jq
 ```
-Run ``translate.py`` with the following parameters:
+Run `translate.sh` with the following parameters:
 ```
-python3 translate.py -f index.html -j ru.json
-python3 translate.py -f download-template.html -j ru.json
+translate.sh -f index.html -t ru.json
+translate.sh -f download-template.html -t ru.json
 ```
 Then run the download file generation for all distributions:
 ```
