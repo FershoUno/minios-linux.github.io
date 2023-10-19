@@ -26,14 +26,14 @@ replace() {
     echo "File download-$DESKTOP_ENVIRONMENT-$PACKAGE_VARIANT-$DISTRIBUTION_ARCH.html has been created."
 }
 
-replace buster xfce minimum en i386 xz
-replace buster xfce minimum en amd64 xz
-replace bookworm flux minimum en i386 xz
-replace bookworm flux minimum en amd64 xz
-replace bookworm xfce standard en i386 zstd
-replace bookworm xfce standard en amd64 zstd
-replace bookworm xfce maximum en amd64 zstd
-replace bookworm xfce ultra en amd64 zstd
-replace bookworm xfce puzzle-base en amd64 zstd
-replace bookworm xfce puzzle en amd64 zstd
+replace buster xfce minimum pt i386 xz
+replace buster xfce minimum pt amd64 xz
+replace bookworm flux minimum pt i386 xz
+replace bookworm flux minimum pt amd64 xz
+replace bookworm xfce standard pt i386 zstd
+replace bookworm xfce standard pt amd64 zstd
+replace bookworm xfce maximum pt amd64 zstd
+replace bookworm xfce ultra pt amd64 zstd
+replace bookworm xfce puzzle-base pt amd64 zstd
+replace bookworm xfce puzzle pt amd64 zstd
 
